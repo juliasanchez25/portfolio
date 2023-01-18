@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Poppins:wght@200;300;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #0e1129;
+    padding: 2rem;
+}
+
+.App {
+    text-align: center;
+}
+
+.App h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    letter-spacing: 3px;
+}
+
+.App p {
+    font-family: 'Jost', sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+a {
+    text-decoration: none;
+}
