@@ -9,21 +9,62 @@
 }
 
 body {
-    background-color: #0e1129;
-    padding: 2rem;
+    background-color: #0f161a;
 }
 
-.App {
+.animation, .animation-layer {
+    height: 1000px;
+}
+
+.animation {
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+
+.animation-layer {
+    background-position: bottom center;
+    background-size: auto;
+    background-repeat: repeat-x;
+    width: 100%;
+    position: absolute;
+}
+
+.animation-layer.parallax {
+    position: fixed;
+}
+
+#p-artback {
+    background-image: url('./public/img/parallax1.png');
+}
+
+#p-first-layer {
+    background-image: url('./public/img/parallax2.png');
+}
+
+#p-second-layer {
+    background-image: url('./public/img/parallax3.png');
+}
+
+#p-third-layer {
+    background-image: url('./public/img/parallax4.png');
+}
+
+#p-fourth-layer {
+    background-image: url('./public/img/parallax5.png');
+}
+
+.title-area {
     text-align: center;
 }
 
-.App h1 {
+.title-area h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 5rem;
     letter-spacing: 3px;
 }
 
-.App p {
+.title-area p {
     font-family: 'Jost', sans-serif;
     font-weight: 200;
     font-size: 2rem;
