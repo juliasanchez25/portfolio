@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #fff;
 }
 
@@ -12,7 +12,97 @@ body {
     background-color: #0f161a;
 }
 
-.animation, .animation-layer {
+a {
+    text-decoration: none;
+}
+
+.navbar-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.navbar-area h2 {
+    font-size: 2rem;
+}
+
+.nav .nav-item{
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 1.3rem;
+}
+
+.nav .nav-item a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav .nav-item a:hover {
+    color: #538cb1;
+}
+
+.navbar-area button {
+    font-size: 1.3rem;
+    padding: 15px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-area button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.main-title-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -2vw;
+}
+
+.main-title-area h1,
+p {
+    margin: 0;
+    position: absolute;
+    text-shadow: 2px 2px 8px #0b1013;
+}
+
+.main-title-area h1 {
+    font-size: 6rem;
+    letter-spacing: 2px;
+    margin-top: 45vh;
+}
+
+.main-title-area p {
+    font-family: 'Jost', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    margin-top: 65vh;
+}
+
+.btn-get-started {
+    position: absolute;
+    background-color: #0088a9cc;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 40vh;
+    opacity: 0.8;
+    transition: all 0.3s ease 0s;
+    transform: translateX(-50%);
+}
+
+.btn-get-started:hover {
+    opacity: 1;
+}
+
+.animation,
+.animation-layer {
     height: 1000px;
 }
 
@@ -72,6 +162,16 @@ body {
     letter-spacing: 10px;
 }
 
-a {
-    text-decoration: none;
+.home-text-area h1 {
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.home-text-area p {
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
 }
