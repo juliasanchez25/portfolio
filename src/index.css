@@ -21,6 +21,16 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    width: 100%;
+    top: 0;
+    position: sticky;
+    z-index: 9999;
+    background-color: #0f161a;
+}
+
+.fixed {
+    transition: 0.3s ease-in-out;
+
 }
 
 .navbar-area h2 {
@@ -72,14 +82,14 @@ p {
 .main-title-area h1 {
     font-size: 6rem;
     letter-spacing: 2px;
-    margin-top: 45vh;
+    margin-top: 70vh;
 }
 
 .main-title-area p {
     font-family: 'Jost', sans-serif;
     font-size: 2rem;
     letter-spacing: 5px;
-    margin-top: 65vh;
+    margin-top: 90vh;
 }
 
 .btn-get-started {
@@ -91,7 +101,7 @@ p {
     border-radius: 30px;
     font-size: 1.3rem;
     cursor: pointer;
-    margin-top: 40vh;
+    margin-top: 50vh;
     opacity: 0.8;
     transition: all 0.3s ease 0s;
     transform: translateX(-50%);
@@ -167,6 +177,7 @@ p {
     text-align: center;
     letter-spacing: 2px;
     margin-bottom: 15px;
+    margin-top: 15vh;
 }
 
 .home-text-area p {
