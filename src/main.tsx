@@ -6,6 +6,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Navbar from './routes/Navbar';
+import MainTitle from './routes/MainTitle';
 import Home from './routes/Home';
 
 const router = createBrowserRouter([
@@ -20,7 +21,11 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Navbar />
-      }
+      },
+      {
+        path: "/",
+        element: <MainTitle />
+      },
     ],
   },
 ]);

@@ -1,22 +1,22 @@
 import { useState, useEffect } from "react";
 
 const Navbar = () => {
-    const [fix, setFix] = useState(false);
+    const [navbar, setNavbar] = useState(false);
 
-    function setFixed() {
-        if (window.scrollY >= 10) {
-            setFix(true)
+    const changeBackground = () => {
+        if (window.scrollY >= 30) {
+            setNavbar(true)
         } else {
-            setFix(false)
+            setNavbar(false)
         }
-    }
+    };
 
-    window.addEventListener("scroll", setFixed);
+    window.addEventListener('scroll', changeBackground);
 
     return (
-        <div className={fix ? "navbar-area fixed" : "navbar-area"}>
+        <div className={navbar ? 'navbar-area nav-active' : 'navbar-area'}>
             <h2>Logo</h2>
-            <div className="nav">
+            <div className="nav-container">
                 <div className="nav-item"><a href="">History</a></div>
                 <div className="nav-item"><a href="">Characters</a></div>
                 <div className="nav-item"><a href="">More</a></div>

@@ -1,7 +1,8 @@
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { Outlet } from "react-router-dom";
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Navbar from './routes/Navbar';
 import Home from "./routes/Home";
+import MainTitle from "./routes/MainTitle";
 
 function App() {
   return (
@@ -24,11 +25,7 @@ function App() {
         </ParallaxLayer>
 
         <ParallaxLayer offset={0} speed={0.5}>
-          <div className="main-title-area">
-            <h1>titulooo</h1>
-            <p>adwdwdwdwd</p>
-            <a href=""><button className="btn-get-started">Get started</button></a>
-          </div>
+          <MainTitle />
         </ParallaxLayer>
 
         <ParallaxLayer offset={1} speed={0.25}>
