@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <div className="home-text-area">
-        <h1>title</h1>
+        <h1>Portfolio</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, possimus. Veritatis nisi incidunt exercitationem ipsam necessitatibus soluta nam commodi iure! Unde nisi expedita neque mollitia fugiat animi repellat ducimus, molestias vitae, rerum saepe natus aperiam assumenda!</p>
       </div>
       <div className="home-cards">

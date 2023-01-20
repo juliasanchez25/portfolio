@@ -25,13 +25,14 @@ a {
     top: 0;
     position: sticky;
     z-index: 9999;
-    background-color: transparent;
-}
-
-.navbar-area.nav-active {
+    /* background-color: transparent; */
     background-color: #0f161a;
 }
 
+/* .navbar-area.nav-active {
+    background-color: #0f161a;
+}
+ */
 .navbar-area h2 {
     font-size: 2rem;
 }
@@ -72,6 +73,7 @@ a {
     justify-content: center;
     align-items: center;
     margin-left: -2vw;
+    padding: 25px;
 }
 
 .main-title-area h1,
@@ -91,20 +93,21 @@ p {
     font-family: 'Jost', sans-serif;
     font-size: 2rem;
     letter-spacing: 5px;
-    margin-top: 90vh;
+    margin-top: 92vh;
 }
 
 .btn-get-started {
     position: absolute;
-    background-color: #0088a9cc;
+    background-color: #ffff;
     width: 180px;
     height: 60px;
     border: none;
     border-radius: 30px;
     font-size: 1.3rem;
     cursor: pointer;
-    margin-top: 50vh;
-    opacity: 0.8;
+    margin-top: 53vh;
+    opacity: .9;
+    color: #0b1013;
     transition: all 0.3s ease 0s;
     transform: translateX(-50%);
 }
@@ -137,25 +140,25 @@ p {
 }
 
 #p-artback {
-    background-image: url('./img/parallax1.png');
+    background-image: url('./img/moon.png');
 }
 
 #p-first-layer {
-    background-image: url('./img/parallax2.png');
+    background-image: url('./img/stars.png');
 }
 
 #p-second-layer {
-    background-image: url('./img/parallax3.png');
+    background-image: url('./img/mountains_behind.png');
 }
 
 #p-third-layer {
-    background-image: url('./img/parallax4.png');
+    background-image: url('./img/mountains_front.png');
 }
 
-#p-fourth-layer {
+/* #p-fourth-layer {
     background-image: url('./img/parallax5.png');
 }
-
+ */
 .title-area {
     text-align: center;
 }
@@ -179,7 +182,7 @@ p {
     text-align: center;
     letter-spacing: 2px;
     margin-bottom: 15px;
-    margin-top: 15vh;
+    margin-top: 5vh;
 }
 
 .home-text-area p {

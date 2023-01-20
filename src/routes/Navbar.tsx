@@ -17,11 +17,11 @@ const Navbar = () => {
         <div className={navbar ? 'navbar-area nav-active' : 'navbar-area'}>
             <h2>Logo</h2>
             <div className="nav-container">
-                <div className="nav-item"><a href="">History</a></div>
-                <div className="nav-item"><a href="">Characters</a></div>
-                <div className="nav-item"><a href="">More</a></div>
+                <div className="nav-item"><a href="">Portfolio</a></div>
+                <div className="nav-item"><a href="">Skills</a></div>
+                <div className="nav-item"><a href="">About me</a></div>
             </div>
-            <a href=""><button>naosei</button></a>
+            <a href=""><button>Contact</button></a>
         </div>
     );
 };
