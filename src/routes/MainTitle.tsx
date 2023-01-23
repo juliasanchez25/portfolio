@@ -3,7 +3,7 @@ const MainTitle = () => {
         <div className="main-title-area">
             <h1>titulooo</h1>
             <p>adwdwdwdwd</p>
-            <a href=""><button className="btn-get-started">botaooo</button></a>
+            <a href=""><button className="btn-main">botaooo</button></a>
         </div>
     );
 };
